@@ -2,7 +2,6 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import BenifitCard from "./Pages/BenifitCard";
-import BookSlot from "./Pages/BookSlot";
 import CreateCard from "./Pages/CreateCard";
 import DownloadCard from "./Pages/DownloadCard";
 import HospitalLabUser from "./Pages/HospitalLabUser";
@@ -14,6 +13,10 @@ import LogIn from "./Pages/LogIn";
 import Bill from "./Pages/Bill";
 import AboutUs from "./common/AboutUs";
 import LearnMore from "./common/LearnMore";
+// import AboutUs from "./common/AboutUs";
+import Contact from "./common/Contact";
+import PrivacyPolicy from "./common/PrivacyPolicy";
+import AddHospitalLab from "./common/AddHospitalLab";
 
 const App = () => {
   return (
@@ -21,24 +24,27 @@ const App = () => {
      <div>
       <Routes>
         <Route path="/" element={<HomePage/>} />
-        <Route path="BenifitCard/" element={<BenifitCard/>} />
-        <Route path="Bookslot/" element={<BookSlot/>} />
-        <Route path="CreateCard/" element={<CreateCard/>} />
-        <Route path="DownloadCard/" element={<DownloadCard/>} />
-        <Route path="hospitalLabUser/" element={<HospitalLabUser/>} />
-        <Route path="Services/" element={<Services/>} />
-        <Route path="Usecard/" element={<UseCard/>} />
-        <Route path="Footer/" element={<Footer/>} />
-        <Route path="SignUp/" element={<SignUp/>} />
-        <Route path="LogIn/" element={<LogIn/>} />
-        <Route path="Bill/" element={<Bill/>} />
-        <Route path="AboutUs/" element={<AboutUs/>} />
-        <Route path="LearnMore/" element={<LearnMore/>} />
+        <Route path="/BenifitCard" element={<BenifitCard/>} />
+        <Route path="/CreateCard" element={<CreateCard/>} />
+        <Route path="/DownloadCard" element={<DownloadCard/>} />
+        <Route path="/hospitalLabUser" element={<HospitalLabUser/>} />
+        <Route path="/Services" element={<Services/>} />
+        <Route path="/Usecard" element={<UseCard/>} />
+        <Route path="/Footer" element={<Footer/>} />
+        <Route path="/SignUp" element={<SignUp/>} />
+        <Route path="/LogIn" element={<LogIn/>} />
+        <Route path="/Bill" element={<Bill/>} />
+        <Route path="/AboutUs" element={<AboutUs/>} />
+        <Route path="/LearnMore" element={<LearnMore/>} />
+        <Route path="/Contact" element={<Contact/>} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>} />
+        <Route path="/AddHospitalLab" element={<AddHospitalLab/>} />
+        
         
 
 
       </Routes>
-     </div>
+     </div>/
     </>
   );
 };

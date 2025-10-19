@@ -45,7 +45,7 @@ const LearnMore = () => {
       <p class="mt-2 text-gray-600">The card provides financial benefits and convenience, and may work as:</p>
       <ul class="list-disc pl-6 mt-3 text-gray-700 space-y-2">
         <li><span class="font-semibold text-indigo-600">Health & Discount Card:</span> Discounts, rewards, and ID for linking medical records.</li>
-        <li><span class="font-semibold text-indigo-600">Digital Health ID Card:</span> Securely store and access your health records.</li>
+        {/* <li><span class="font-semibold text-indigo-600">Digital Health ID Card:</span> Securely store and access your health records.</li> */}
       </ul>
       <p class="mt-4 font-medium text-green-600">Benefit: Save costs, access rewards, and manage all health records in one place.</p>
     </section>

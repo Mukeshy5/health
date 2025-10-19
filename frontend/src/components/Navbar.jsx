@@ -12,13 +12,13 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link to="/">
               <span className="text-2xl font-bold text-purple-600 tracking-wider cursor-pointer">
-                Healtho
+                Easy Healtho
               </span>
             </Link>
           </div>
 
           {/* Hamburger button (mobile) */}
-          <div className="flex md:hidden">
+          <div className="flex md:hidden ">
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
@@ -74,7 +74,7 @@ const Navbar = () => {
 
       {/* Mobile dropdown */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-md px-4 pb-4 flex-col  space-y-2">
+        <div className="md:hidden  shadow-md px-4 pb-4 flex-col bg-cyan-200 space-y-2">
           <select
             id="language-selector"
             className="block w-full px-3 py-2 text-sm text-gray-700 border-gray-300 rounded-md focus:ring-purple-500 focus:border-purple-500"
