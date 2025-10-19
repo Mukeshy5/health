@@ -14,9 +14,9 @@ const Footer = () => {
           <div class="space-y-4 transform hover:scale-105 transition duration-500">
             <div class="flex items-center space-x-3">
               <div class="bg-green-500 w-10 h-10 rounded-lg animate-pulse flex items-center justify-center">
-                H
+                EH
               </div>
-              <h2 class="text-xl font-semibold text-white">Healtho</h2>
+              <h2 class="text-xl font-semibold text-white">Easy Healtho</h2>
             </div>
             <p class="text-sm leading-relaxed">
               Connecting agricultural service providers with those who need
